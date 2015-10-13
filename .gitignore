@@ -1,0 +1,13 @@
+# .gitignore for the professional document templates repo.
+
+# Ignore any .aux files.
+*.aux
+
+# Ignore any .dvi files
+*.dvi
+
+# Ignore any .log files.
+*.log
+
+# Ignore any OS .fuse files.
+*.fuse_*

@@ -1,9 +1,7 @@
 Professional Profile Templates
 ==============================
 
-Platforms: LaTeX
-
-This is a template to use to help build the structure 
+This is a LaTeX template to use to help build the structure 
 of a full professional profile (e.g. I use it as my 
 generic document where I keep all of my career-relevant 
 information updated, I then use it to generate 

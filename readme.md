@@ -1,9 +1,7 @@
 Professional Document Templates
 ===============================
 
-Platforms: LaTeX
-
-This repository contains templates to help 
+This repository contains LaTeX templates to help 
 in the creation of clean and presentable yet simple 
 professional documents. 
 

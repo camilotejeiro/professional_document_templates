@@ -12,7 +12,7 @@ mainly on the content, (following the good LaTeX philosophy).
 Normally I create a generic full professional profile document 
 which I then use to create smaller custom resumes as needed.
 
-You can start using this templates:
+### How to use the templates?
 * Refer to the professional_profile/examples directory to get started 
 creating your professional profile.
 * Refer to the resume/examples directory to get started 

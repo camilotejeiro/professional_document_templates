@@ -11,3 +11,6 @@
 
 # Ignore any OS .fuse files.
 *.fuse_*
+
+# Ignore any backup files.
+*.bak

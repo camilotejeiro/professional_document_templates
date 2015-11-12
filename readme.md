@@ -9,7 +9,16 @@ With these templates you can have a good starting
 point for the structure of your document, and focus 
 mainly on the content, (following the good LaTeX philosophy).
 
-### Here is an example of my resume
+Normally I create a generic full professional profile document 
+which I then use to create smaller custom resumes as needed.
+
+You can start using this templates:
+* Refer to the professional_profile/examples directory to get started 
+creating your professional profile.
+* Refer to the resume/examples directory to get started 
+creating your resume.
+
+#### Here is an example of my resume
 created with the resume template:
 [Camilo's Example Resume](https://camilotejeiro.files.wordpress.com/2015/11/camilo_tejeiro_ee_oct15_resume.pdf)
 

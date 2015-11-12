@@ -7,4 +7,4 @@ generic document where I keep all of my career-relevant
 information updated, I then use it to generate 
 specific resumes or cvs as needed.) 
 
-See the prof_example to see how to use it.
+See the examples directory to see how to use it.

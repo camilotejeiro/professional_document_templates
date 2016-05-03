@@ -13,15 +13,14 @@ Normally I create a generic full professional profile document
 which I then use to create smaller custom resumes as needed.
 
 ### How to use the templates?
-* Refer to the **professional_profile/examples** directory to get started 
-creating your professional profile.
-* Refer to the **resume/examples directory** to get started 
-creating your resume.
 
-#### Here is an example of my resume
-created with the resume template:
-[Camilo's Example Resume](https://camilotejeiro.files.wordpress.com/2015/11/camilo_tejeiro_ee_oct15_resume.pdf)
+1. Clone/download this repo to your local computer.
+2. Refer to the **professional_profile/examples** directory to: 
+    - See an example PDF and,
+    - To get started creating your own professional profile 
+      (use the example .tex file as a starting guide). 
+3. Refer to the **resume/examples directory** to get started creating 
+    your own resume:
+    - repeat above steps.
 
-#### Here is an example of my professional profile
-Created with the professional profile template:
-[Camilo's Example Professional Profile](https://camilotejeiro.files.wordpress.com/2015/11/camilo_tejeiro_oct15_prof.pdf)
+

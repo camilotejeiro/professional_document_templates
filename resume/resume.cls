@@ -4,7 +4,7 @@
 % License: MIT
 % ======================================================================
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{resume}[2019/06/18 Resume class]
+\ProvidesClass{resume}[Resume class]
 
 \LoadClass[10pt, letterpaper]{article}
 

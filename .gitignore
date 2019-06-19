@@ -14,3 +14,10 @@
 
 # Ignore any backup files.
 *.bak
+
+# ignore archive created on compile
+*.synctex.gz
+
+# ignore out file created
+*.out
+

@@ -3,6 +3,13 @@
 % Author: Camilo Tejeiro
 % License: MIT
 % ======================================================================
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesClass{profile}[Profile class]
+
+\LoadClass[10pt, letterpaper]{article}
+
+\RequirePackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor=cyan}
 
 % ---
 % Page Dimensions and Layout

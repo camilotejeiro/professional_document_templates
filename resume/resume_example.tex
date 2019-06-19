@@ -1,49 +1,15 @@
 \documentclass{./resume}
 
-% ---
-% Command Definitions
-% ---
-
-% Define to switch between generating a private confidential document 
-% or a public document to put in the web.
-\newcommand{\PRIVATERESUME}
-
-% Display private info
-\newcommand{\privateinfo}
-{
-	% Only add address and phone for private documents.
-	\resumesubtitle{my private address}{first.last@email.com}
-	
-	% Only add address and phone for private documents.
-	\resumesubtitle{City, State, Country}{123-456-7890}
-	
-	% Put the online urls for all documents.
-	\resumesubtitle{linkedin.com/in/firstlast}{firstlast.blog.com} 
-}
-
-% Display public info
-\newcommand{\publicinfo}
-{
-	% Only add city and e-mail address for public documents.
-	\resumesubtitle{City, State, Country}{first.last@email.com}  
-	
-	% Put the online urls for all documents.
-	\resumesubtitle{linkedin.com/in/firstlast}{firstlast.blog.com} 
-}
-
 %---------------
 % resume Content 
 %---------------
-% let's start adding content with typesetting instructions.
 \begin{document}
 	
+	% Personal Info
 	\resumetitle{John Doe}
-	
-	\ifdefined\PRIVATERESUME
-	\privateinfo
-	\else
-	\publicinfo
-	\fi
+	\resumesubtitle{my private address}{first.last@email.com}
+	\resumesubtitle{City, State, Country}{123-456-7890}
+	\resumesubtitle{linkedin.com/in/firstlast}{firstlast.blog.com} 
 	
 	\begin{resumesection}{Skills}
 		\begin{resumesubsection}{Areas of Knowledge}{}
@@ -66,7 +32,7 @@
 		\end{resumesubsection}
 		\begin{resumesubsection} {University of YZX}{City, State, Country}     
 			Cumulative GPA \hfill 3.5 on a 4.0 scale \newline
-			Associate of Science in ... \hfill 
+			Associate of Science in ... \hfill Month Year
 		\end{resumesubsection}
 	\end{resumesection}
 	
@@ -82,7 +48,7 @@
 	\end{resumesection}
 	
 	\begin{resumesection}{Publications}
-		Add publication here 
+		Add publication here in citation format
 	\end{resumesection}    
 	
 	\begin{resumesection}{Awards and Honors}

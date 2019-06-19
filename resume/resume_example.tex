@@ -1,0 +1,96 @@
+\documentclass{./resume}
+
+% ---
+% Command Definitions
+% ---
+
+% Define to switch between generating a private confidential document 
+% or a public document to put in the web.
+\newcommand{\PRIVATERESUME}
+
+% Display private info
+\newcommand{\privateinfo}
+{
+	% Only add address and phone for private documents.
+	\resumesubtitle{my private address}{first.last@email.com}
+	
+	% Only add address and phone for private documents.
+	\resumesubtitle{City, State, Country}{123-456-7890}
+	
+	% Put the online urls for all documents.
+	\resumesubtitle{linkedin.com/in/firstlast}{firstlast.blog.com} 
+}
+
+% Display public info
+\newcommand{\publicinfo}
+{
+	% Only add city and e-mail address for public documents.
+	\resumesubtitle{City, State, Country}{first.last@email.com}  
+	
+	% Put the online urls for all documents.
+	\resumesubtitle{linkedin.com/in/firstlast}{firstlast.blog.com} 
+}
+
+%---------------
+% resume Content 
+%---------------
+% let's start adding content with typesetting instructions.
+\begin{document}
+	
+	\resumetitle{John Doe}
+	
+	\ifdefined\PRIVATERESUME
+	\privateinfo
+	\else
+	\publicinfo
+	\fi
+	
+	\begin{resumesection}{Skills}
+		\begin{resumesubsection}{Areas of Knowledge}{}
+			General Area 1, General Area 2 .....
+		\end{resumesubsection}
+		
+		\begin{resumesubsection}{Technical Skills}{} 
+			Technical Skills 1, Technical Skills 2 .....
+		\end{resumesubsection} 
+		
+		\begin{resumesubsection}{Personal Skills}{}
+			Personal Skills 1, Personal Skills 2 ...... 
+		\end{resumesubsection}
+	\end{resumesection}
+	
+	\begin{resumesection}{Education}
+		\begin{resumesubsection} {University of XYZ}{City, State, Country}     
+			Cumulative GPA \hfill 3.9 on a 4.0 scale \newline
+			Bachelor of Science in ... \hfill Month Year
+		\end{resumesubsection}
+		\begin{resumesubsection} {University of YZX}{City, State, Country}     
+			Cumulative GPA \hfill 3.5 on a 4.0 scale \newline
+			Associate of Science in ... \hfill 
+		\end{resumesubsection}
+	\end{resumesection}
+	
+	\begin{resumesection}{Experience}
+		\begin{resumesubsection}{Company A}{City, State, Country}
+			\textit{Job Title} \normalsize \hfill Startmonth year - Endmonth year \newline
+			Description of work
+			
+			\resumesubsubsectiontitle{Project Name}{Skill 1, Skill 2}
+			
+		\end{resumesubsection}   
+		
+	\end{resumesection}
+	
+	\begin{resumesection}{Publications}
+		Add publication here 
+	\end{resumesection}    
+	
+	\begin{resumesection}{Awards and Honors}
+		
+		\begin{resumesubsection}{Honor A}{Month, Year} 
+			Description of award
+		\end{resumesubsection}
+		
+	\end{resumesection}  
+	
+\end{document}

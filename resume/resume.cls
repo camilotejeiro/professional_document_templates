@@ -1,8 +1,15 @@
 % ======================================================================
-% Resume Template
+% Resume Class
 % Author: Camilo Tejeiro
 % License: MIT
 % ======================================================================
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesClass{resume}[2019/06/18 Resume class]
+
+\LoadClass[10pt, letterpaper]{article}
+
+\RequirePackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor=cyan}
 
 % ---
 % Page Dimensions and Layout
@@ -38,25 +45,25 @@
 
 \newenvironment{resumesection}[1]
 {
-    \hrulefill
-    \resumesectiontitle{#1}
-    \par
-    \normalsize
+	\hrulefill
+	\resumesectiontitle{#1}
+	\par
+	\normalsize
 }
 
 \newenvironment{resumesubsection}[2]
 {
-    \resumesubsectiontitle{#1}{#2}
-    \par
-    \normalsize
+	\resumesubsectiontitle{#1}{#2}
+	\par
+	\normalsize
 }
 
 \newenvironment{resumesubsubsection}[2]
 {
-    \resumesubsubsectiontitle{#1}{#2}
-    \par
-    \normalsize    
-    \leftskip=0.4in
+	\resumesubsubsectiontitle{#1}{#2}
+	\par
+	\normalsize    
+	\leftskip=0.4in
 }
 
 % ---
@@ -67,42 +74,42 @@
 
 \newcommand{\resumetitle}[1]
 {
-    \centerline
-    {
-        \large\textbf{#1}
-    }
+	\centerline
+	{
+		\large\textbf{#1}
+	}
 }
 
 \newcommand{\resumesubtitle}[2]
 {
-    {#1}\hfill{#2} 
+	{#1}\hfill{#2} 
 }
 
 \newcommand{\resumesectiontitle}[1]
 {
-    \par
-    \medskip
-    \large
-    {
-        \textbf{#1} \nopagebreak
-    }
+	\par
+	\medskip
+	\large
+	{
+		\textbf{#1} \nopagebreak
+	}
 }
 
 \newcommand{\resumesubsectiontitle}[2]
 {
-    \par
-    \medskip
-    \normalsize
-    \textbf{#1}  \normalsize \hfill{#2} \nopagebreak
-
+	\par
+	\medskip
+	\normalsize
+	\textbf{#1}  \normalsize \hfill{#2} \nopagebreak
+	
 }
 
 \newcommand{\resumesubsubsectiontitle}[2]
 {
-    \par
-    \medskip
-    \normalsize
-    \leftskip=0.4in
-    {#1} \hfill {\textit{#2}} \nopagebreak
-
+	\par
+	\medskip
+	\normalsize
+	\leftskip=0.4in
+	{#1} \hfill {\textit{#2}} \nopagebreak
+	
 }
